@@ -33,6 +33,7 @@ public class Pizza
 	double pizzaDeliverySunday;
 	double totalCostSunday;
 
+	System.out.println("Please enter amount of people coming on Friday");
 	people = scnr.nextInt();
 	avgSlices = scnr.nextDouble();
 	costPizza = scnr.nextDouble();
